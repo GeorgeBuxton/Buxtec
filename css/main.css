@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	background-color: #fff;
+	color: #555;
+	font-family: 'Titillium Web', "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin:0;
+	font-size: 16px;
+}
+
+main {
+	width: 100%;
+}
+
+.content {
+	width: 340px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+menu {
+	
+}
+
+h1 {
+	font-family: 'Titillium Web', "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 700;
+	font-size: 48px;
+	text-align: center;
+}
+p { 
+	font-size: 16px;
+}
+
+#logo {
+	width:200px;
+	height:auto;
+	margin: 30px auto;
+	text-align: center;
+	position: relative;
+}
+
+a { 
+	color: #00AACC; 
+	text-decoration: none;
+}
+a:hover { color: #00DDFF; }
+/* @media only screen and (max-width: 340px){} */
