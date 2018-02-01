@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9799 43 30 30">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_39" data-name="Group 39" transform="translate(7960)">
+    <g id="Rectangle_9" data-name="Rectangle 9" class="cls-1" transform="translate(1839 43)">
+      <rect class="cls-3" width="30" height="30" rx="3"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="29" height="29" rx="2.5"/>
+    </g>
+    <path id="Union_3" data-name="Union 3" class="cls-2" d="M-7946.919,15.2l-4.949-4.95-4.949,4.95a1.5,1.5,0,0,1-2.121,0,1.5,1.5,0,0,1,0-2.121l4.949-4.95-4.949-4.95a1.5,1.5,0,0,1,0-2.121,1.5,1.5,0,0,1,2.121,0l4.949,4.95,4.949-4.95a1.5,1.5,0,0,1,2.122,0,1.5,1.5,0,0,1,0,2.121l-4.949,4.95,4.949,4.95a1.5,1.5,0,0,1,0,2.121,1.494,1.494,0,0,1-1.06.439A1.5,1.5,0,0,1-7946.919,15.2Z" transform="translate(9806.101 50.368)"/>
+  </g>
+</svg>
