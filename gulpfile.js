@@ -1,8 +1,17 @@
 // gulpfile.js JavaScript Document
 
 var gulp = require('gulp'),
-	gutil = require('gulp-util');
+	gutil = require('gulp-util'),
+	browserify = require('gulp-browserify'),
+	concat = require('gulp-concat');
 
-gulp.task('log', function(){
-	gutil.log('Workflows are awesome');
+var jsSources = [
+	'components/scripts/main.js'
+];
+
+gulp.task('js', function(){
+	gulp.src(jsSources)
+		.pipe(concat('main.js'))
+		.pipe(browserify())
+		.pipe(gulp.dest('build/development/js'))
 });
