@@ -1,4 +1,4 @@
-// JavaScript Document
+// JavaScript Document -- main.js
 
 // menu icon role over
 function menuOver() {
@@ -38,7 +38,7 @@ function mouseOver() {
 }
 
 function mouseOut() {
-   	document.getElementById("message").innerHTML = "and live the dream.";
+   	document.getElementById("message").innerHTML = "Another day in paradise.";
 }
 
 // Project

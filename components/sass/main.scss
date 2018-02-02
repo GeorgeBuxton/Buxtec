@@ -1,9 +1,21 @@
 @charset "UTF-8";
-/* CSS Document */
+
+// Compass imports
+@import "compass";
+@import "compass/css3/box-shadow";
+
+// Core partials
+@import "dev";
+
+// Varibles
+$primary-color: #555555;
+$dark-blue: #2222ff;
+
+/* main.scss */
 
 body { 
 	background-color: #fff;
-	color: #555;
+	color: $primary-color;
 	font-family: 'Titillium Web', "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	margin:0;
 	font-size: 16px;
@@ -30,14 +42,14 @@ main {
 	width: 100vw;
 }
 #pagemenu {
-	background: #2222ff; /* For browsers that do not support gradients */
-    background: linear-gradient(-45deg, #ff00ff, #2222ff, #00ffff); /* Standard syntax (must be last) */	
+	background: $dark-blue; /* For browsers that do not support gradients */
+    background: linear-gradient(-45deg, #ff00ff, $dark-blue, #00ffff); /* Standard syntax (must be last) */	
 	width: 0vw;
 	transition: width 2s;
 }
 #pagework {
-	background: #2222ff; /* For browsers that do not support gradients */
-    background: linear-gradient(-45deg, #ff00ff, #2222ff, #00ffff); /* Standard syntax (must be last) */	
+	background: $dark-blue; /* For browsers that do not support gradients */
+    background: linear-gradient(-45deg, #ff00ff, $dark-blue, #00ffff); /* Standard syntax (must be last) */	
 	width: 0vw;
 	transition: width 2s;
 	box-shadow: -10px 5px 5px #0FF;
@@ -118,8 +130,8 @@ menu {
 #pagemenu-bg {
 
 	width: 100vw;
-	background: #2222ff; /* For browsers that do not support gradients */
-    background: linear-gradient(-45deg, #ff00ff, #2222ff, #00ffff); /* Standard syntax (must be last) */	
+	background: $dark-blue; /* For browsers that do not support gradients */
+    background: linear-gradient(-45deg, #ff00ff, $dark-blue, #00ffff); /* Standard syntax (must be last) */	
 	transition: width 2s;
 }
 .nav-link { 
@@ -192,7 +204,7 @@ a:hover {
 .btn {
 	display: block;
 	text-align: center;
-	border: 1px solid #555555;
+	border: 1px solid $primary-color;
 	padding: 10px;
 	margin-bottom: 10px;
 	color: #555555;
@@ -201,7 +213,7 @@ a:hover {
 	background: #00FFFF;
 }
 .btn a {
-	color: #555555;
+	color: $primary-color;
 }
 
 #contents-list { 
@@ -311,7 +323,7 @@ a:hover {
 .nextproject {
 	font-size: 2rem;
 	font-weight: 700;
-	color: #555555;
+	color: $primary-color;
 }
 .nextproject-icon { 
 	position: absolute;
@@ -341,7 +353,7 @@ a:hover {
 	display: block;
 	width: 100%;
 	border: none;
-	border-bottom: 1px solid #555555;
+	border-bottom: 1px solid $primary-color;
 	margin-bottom: 10px;
 }
 label{ 
@@ -354,7 +366,7 @@ input {
 textarea {
 	width: 100%;
 	border: none;
-	border-bottom: 1px solid #555555;
+	border-bottom: 1px solid $primary-color;
 	margin-bottom: 10px;
 }
 .submit { 
